@@ -1,0 +1,100 @@
+ <!-- For Loop 
+    for(pernyataan1; pernyataan 2; pernyataan 3)
+    {
+        blog kode yang akan dijalankan
+    }
+-->
+<!-- for(i=0;i<5;i++)
+{
+    teks += "Ini adalah nomor" + 1 + "<br>";
+} -->
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="data">
+            <script>
+                for (var i = 0; i < 5; i++)
+                {
+                    console.log("Nilai saat ini " + i);
+                }  
+            </script>
+        </div>
+    </body>
+</html>
+ 
+<!DOCTYPE html>
+<html>
+<body>
+<div id="data"></div>
+<script>
+var text="";
+    for (var i = 0; i < 5; i++) 
+    {
+        text +="Nilai saat ini " + i + "<br>";
+        document.getElementById("data").innerHTML = text;
+    }
+</script>
+</body>
+</html>
+
+<!-- While 
+    while(kondisi)
+    {
+        blok kode yang akan dijalankan
+    }
+
+    while(i<10)
+    {
+        teks +="Ini adalah nomor " + i;
+        i++;
+    }
+-->
+
+<!DOCTYPE html>
+    <html>
+        <body>
+            <div id="data"></div>
+                <script>
+                    var j=0;
+                        while(j<5)
+                        {
+                            console.log("While: Nilai saat ini "+j);
+                            j++;
+                        }
+                </script>
+        </body>
+    </html>
+
+
+
+<!-- Do While 
+    do
+    {
+        kode yang akan dijalankan
+    }
+
+    do
+    {
+        teks +="Ini adalah nomor " + i;
+        i++;
+    }
+        while(i<10);
+        while(kondisi);
+-->
+
+<!DOCTYPE html>
+<html>
+<body>
+<div id="data"></div>
+<script>
+var k=0;
+do 
+{
+    console.log("Do While: Nilai saat ini "+k);
+    k++;
+}
+while(k<5)
+</script>
+</body>
+</html>
